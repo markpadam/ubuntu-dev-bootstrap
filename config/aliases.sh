@@ -1,0 +1,6 @@
+alias k='kubectl'
+alias kn='kubectl config set-context --current --namespace'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias gs='git status'
+alias gl='git log --oneline --graph'
