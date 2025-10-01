@@ -9,4 +9,4 @@ rm k9s.tar.gz
 sudo git clone https://github.com/ahmetb/kubectx /opt/kubectx
 sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
 sudo snap install helm --classic
-curl -LO https://github.com/Azure/kubelogin/releases/latest/download/kubelogin-linux-amd64.zip
+sudo snap install kubelogin
