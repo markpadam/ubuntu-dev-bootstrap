@@ -14,5 +14,6 @@ done
 # Symlink configs
 ln -sf "$(pwd)/config/.zshrc" ~/.zshrc
 ln -sf "$(pwd)/config/aliases.sh" ~/.aliases
+chsh -s $(which zsh)
 
 echo "✅ Bootstrap complete. Restart your terminal to enjoy your new setup!"
